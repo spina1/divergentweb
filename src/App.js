@@ -7,7 +7,7 @@ import Home from "./components/home.component";
 import About from "./components/about.component";
 import Services from "./components/services.component";
 import Barbers from "./components/barbers.component";
-import Book from "./components/book.component";
+import Signup from "./components/signup.component";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/barbers" component={Barbers} />
-        <Route path="/book" component={Book} />
+        <Route path="/signup" component={Signup} />
       </div>
     </Router>
   );

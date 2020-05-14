@@ -25,7 +25,7 @@ export default class Navbar extends Component {
             Menu
             <i className="fa fa-bars"></i>
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
+          <div className="collapse collapseOnSelect" id="navbarResponsive">
             <ul className="navbar-nav text-uppercase ml-auto">
               <li className="nav-item">
                 <Link to="/about" className="nav-link">

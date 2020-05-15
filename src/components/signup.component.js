@@ -28,7 +28,6 @@ export default class Book extends Component {
 
   onSubmit(e) {
     e.preventDefault();
-<<<<<<< HEAD
     const newClient = {
       clientname: this.state.clientname,
       clientphone: this.state.clientphone,
@@ -42,14 +41,6 @@ export default class Book extends Component {
       clientname: "",
       clientphone: "",
     });
-=======
-    const client = {
-      clientname: this.state.clientname,
-      clientphone: this.state.clientphone,
-    };
-    console.log(client);
-    window.location = "/";
->>>>>>> dfc5ef0038f49f3e3850e3c6efb456276583f56d
   }
 
   render() {

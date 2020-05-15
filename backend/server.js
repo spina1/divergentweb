@@ -25,6 +25,10 @@ const clientsRouter = require("./routes/clients");
 
 app.use("/clients", clientsRouter);
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("../src/build"));
+}
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
